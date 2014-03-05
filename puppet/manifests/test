@@ -1,0 +1,33 @@
+[0;32minfo: Loading facts in /etc/puppet/modules/concat/lib/facter/concat_basedir.rb[0m
+[0;32minfo: Caching catalog for fs.rowlando.co.uk[0m
+[0;32minfo: Applying configuration version '1394033502'[0m
+[0;36mnotice: /Stage[main]/Sudo/File[/etc/sudoers]/content: current_value {md5}243a27fa82c18ce539213acd6de88f36, should be {md5}ad6952c0945bea2b4dba093bb0511a8e (noop)[0m
+[0;36mnotice: Class[Sudo]: Would have triggered 'refresh' from 1 events[0m
+[0;36mnotice: /Stage[main]/Ssh::Install/Package[undef]/ensure: current_value absent, should be present (noop)[0m
+[0;36mnotice: Class[Ssh::Install]: Would have triggered 'refresh' from 1 events[0m
+[0;36mnotice: /Stage[main]/Ssh::Config/File[/etc/ssh/sshd_config]/content: current_value {md5}65eeb3b98f85227c33bdd66b03eb4626, should be {md5}435fb8929cdf3769fa746e593946c8b0 (noop)[0m
+[0;36mnotice: /Stage[main]/Ssh::Config/File[/etc/ssh/sshd_config]/mode: current_value 0600, should be 0440 (noop)[0m
+[0;32minfo: /Stage[main]/Ssh::Config/File[/etc/ssh/sshd_config]: Scheduling refresh of Class[Ssh::Service][0m
+[0;32minfo: /Stage[main]/Ssh::Config/File[/etc/ssh/sshd_config]: Scheduling refresh of Class[Ssh::Service][0m
+[0;36mnotice: Class[Ssh::Config]: Would have triggered 'refresh' from 2 events[0m
+[0;36mnotice: Class[Ssh::Service]: Would have triggered 'refresh' from 2 events[0m
+[0;32minfo: Class[Ssh::Service]: Scheduling refresh of Service[undef][0m
+[0;36mnotice: /Stage[main]/Ssh::Service/Service[undef]/ensure: current_value stopped, should be running (noop)[0m
+[0;36mnotice: /Stage[main]/Ssh::Service/Service[undef]: Would have triggered 'refresh' from 1 events[0m
+[0;36mnotice: Class[Ssh::Service]: Would have triggered 'refresh' from 2 events[0m
+[0;36mnotice: /Stage[main]/Puppet::Config/File[/etc/puppet/puppet.conf]/content: current_value {md5}58e2f9765e2994db8e8ab19a3513356e, should be {md5}328769dbfe978a3042182652aca13b58 (noop)[0m
+[0;36mnotice: /Stage[main]/Puppet::Config/File[/etc/puppet/puppet.conf]/owner: current_value root, should be puppet (noop)[0m
+[0;36mnotice: /Stage[main]/Puppet::Config/File[/etc/puppet/puppet.conf]/group: current_value root, should be puppet (noop)[0m
+[0;32minfo: /Stage[main]/Puppet::Config/File[/etc/puppet/puppet.conf]: Scheduling refresh of Class[Puppet::Service][0m
+[0;32minfo: /Stage[main]/Puppet::Config/File[/etc/puppet/puppet.conf]: Scheduling refresh of Class[Puppet::Service][0m
+[0;32minfo: /Stage[main]/Puppet::Config/File[/etc/puppet/puppet.conf]: Scheduling refresh of Class[Puppet::Service][0m
+[0;36mnotice: /Stage[main]/Puppet::Master/Service[puppetmasterd]/ensure: current_value stopped, should be running (noop)[0m
+[0;36mnotice: Class[Puppet::Service]: Would have triggered 'refresh' from 3 events[0m
+[0;32minfo: Class[Puppet::Service]: Scheduling refresh of Service[puppet][0m
+[0;36mnotice: Class[Puppet::Config]: Would have triggered 'refresh' from 3 events[0m
+[0;36mnotice: Class[Puppet::Master]: Would have triggered 'refresh' from 1 events[0m
+[0;36mnotice: /Stage[main]/Puppet::Service/Service[puppet]/ensure: current_value stopped, should be running (noop)[0m
+[0;36mnotice: /Stage[main]/Puppet::Service/Service[puppet]: Would have triggered 'refresh' from 1 events[0m
+[0;36mnotice: Class[Puppet::Service]: Would have triggered 'refresh' from 2 events[0m
+[0;36mnotice: Stage[main]: Would have triggered 'refresh' from 7 events[0m
+[0;36mnotice: Finished catalog run in 1.81 seconds[0m
