@@ -3,7 +3,7 @@ class fail2ban::service {
 		ensure => running,
 		hasstatus => true,
 		hasrestart => true,
-		enabled => true,
-		require => Class["fail2ban::install"]
+		enable => true,
+		require => Class["fail2ban::install"],
 	}
 }
