@@ -1,4 +1,4 @@
 class ssh {
-	include ssh::install, ssh::config, ssh::service, ssh::params, ssh::knownhosts, ssh::hostkeys
+	include ssh::params, ssh::install, ssh::config, ssh::service, ssh::knownhosts, ssh::hostkeys
 }
    
