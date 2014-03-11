@@ -3,4 +3,5 @@ class base {
 	include sudo
 	include puppet
 	include vim
+	include fail2ban
 }

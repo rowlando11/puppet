@@ -6,8 +6,8 @@ package { "puppet-server":
 	ensure => installed,
 }
 
-service { "puppetmasterd":
-	ensure => running,
+service { "puppetmaster":
+	ensure => stopped,
 	hasstatus => true,
 	hasrestart => true,
 	enable => true,

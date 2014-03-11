@@ -9,8 +9,7 @@ class nagios::monitor {
     enable    => true,
     subscribe => [ Package["nagios"], Package["nagios-plugins"] ],
 }
-
-	
+  # Manage the main nagios config file	
 	file { '/etc/nagios/nagios.cfg':
       ensure => present,
       mode   => 644,
