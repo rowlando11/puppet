@@ -1,0 +1,23 @@
+{
+  "project_page": "UNKNOWN",
+  "version": "0.0.1",
+  "license": "Apache License, Version 2.0",
+  "source": "UNKNOWN",
+  "checksums": {
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "manifests/init.pp": "d65d44b0b81aa8b659495e1c18335c26",
+    "Modulefile": "d893bbc85aff809a66110d64b5f06bc8",
+    "tests/init.pp": "15aa739c9e8adc0ffc00d9d8f48e5cc5",
+    "README": "f6e18e5a2f2f7d2158d2aca4c8876c70"
+  },
+  "dependencies": [
+
+  ],
+  "summary": "UNKNOWN",
+  "types": [
+
+  ],
+  "description": "UNKNOWN",
+  "name": "site-firewall",
+  "author": "site"
+}
