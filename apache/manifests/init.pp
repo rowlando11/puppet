@@ -1,3 +1,3 @@
 class apache {
-	include apache::params, apache::install, apache::service
+  include apache::params, apache::install, apache::service
 }
