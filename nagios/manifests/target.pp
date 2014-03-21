@@ -13,7 +13,7 @@ class nagios::target {
     use		        => "generic-service",
     host_name           => "$fqdn",
     notification_period => "24x7",
-    service_description => "${hostname}_check_ping"
+    service_description => "${hostname}_check_ping",
   }
 
   @@nagios_service { "check_load_${hostname}":
