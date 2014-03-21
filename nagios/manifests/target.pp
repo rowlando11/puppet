@@ -42,7 +42,7 @@ class nagios::target {
   }   
 
   @@nagios_service { "check_updates_${hostname}":
-    check_command       => "check_updates",
+    check_command       => "check_nrpe!check_updates",
     use                 => "generic-service",
     host_name           => "$fqdn",
     notification_period => "24x7",
