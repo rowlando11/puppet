@@ -1,4 +1,4 @@
-# nagios host and service config file
+## nagios host and service config file
 class nagios::target {
 
   @@nagios_host { "$fqdn":
