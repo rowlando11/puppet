@@ -1,4 +1,4 @@
 class yumrepo {
 	include yumrepo::rpmforge
-	include yumrepo::epel-release
+	include yumrepo::epel
 }
