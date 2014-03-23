@@ -3,7 +3,7 @@ class yumrepo::epel {
 
   if ($::operatingsystem == 'CentOS') and ($::operatingsystemrelease =~ /^6/) {
     yumrepo { 'epel-release':
-      name           => 'Extra Packages for Enterprise Linux 6',
+      name           => 'epel',
       mirrorlist     => 'https://mirrors.fedoraproject.org/metalink?repo=epel-6&arch=$basearch',
       enabled        => 1,
       failovermethod => 'priority',
