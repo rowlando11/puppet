@@ -5,10 +5,10 @@ class yumrepo::epel {
     yumrepo { 'epel-release':
       name           => 'Extra Packages for Enterprise Linux 6',
       mirrorlist     => 'https://mirrors.fedoraproject.org/metalink?repo=epel-6&arch=$basearch',
-      enabled        => 'Yes',
+      enabled        => 1,
       failovermethod => 'priority',
       gpgkey         => '/etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6',
-      gpgcheck       => 'Yes',
+      gpgcheck       => 1,
       require        => File['/etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6'],
     }
     file { '/etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6':
