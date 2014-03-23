@@ -7,7 +7,7 @@ class yumrepo::epel {
       mirrorlist     => 'https://mirrors.fedoraproject.org/metalink?repo=epel-6&arch=$basearch',
       enabled        => 1,
       failovermethod => 'priority',
-      gpgkey         => '/etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6',
+      gpgkey         => 'file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6',
       gpgcheck       => 1,
       require        => File['/etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6'],
     }
