@@ -15,7 +15,7 @@ class yumrepo::epel {
       owner  => 'root',
       group  => 'root',
       mode   => '0644',
-      source => 'puppet:///modules/yumrepo/RPM-GPG-KEY-EPEL',
+      source => 'puppet:///modules/yumrepo/RPM-GPG-KEY-EPEL-6',
     }
   }
     else {
