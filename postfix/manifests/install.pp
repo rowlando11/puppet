@@ -1,5 +1,6 @@
+# postfix installation class
 class postfix::install {
-	package { [ "postfix", "mailx" ]:
-		ensure => present,
-	}
+  package { [ 'postfix', 'mailx' ]:
+    ensure => present,
+  }
 }

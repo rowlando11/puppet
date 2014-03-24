@@ -10,12 +10,12 @@ class nagios::monitor {
     subscribe => [ Package["nagios"], Package["nagios-plugins"] ],
 }
   # Manage the main nagios config file	
-	file { '/etc/nagios/nagios.cfg':
+    file { '/etc/nagios/nagios.cfg':
       ensure => present,
       mode   => 644,
-	  audit => all,
+      audit  => all,
       source => 'puppet:///modules/nagios/nagios.cfg',
-	  notify => Service["nagios"],
+      notify => Service["nagios"],
     }
   # collect resources and populate /etc/nagios/nagios_*.cfg
   Nagios_host    <<||>> { notify => Service["nagios"] }
